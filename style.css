@@ -1,0 +1,104 @@
+/* Simple modern crypto game style */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #121212;
+  color: #eee;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+header {
+  background: #1f1f1f;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 3px solid #00ffcc;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+  color: #00ffcc;
+  letter-spacing: 3px;
+}
+
+header p {
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+.token-address code {
+  background: #222;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  user-select: all;
+}
+
+.mascot {
+  font-size: 5rem;
+  margin-top: 1.5rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+main h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffcc;
+  border-bottom: 2px solid #00ffcc;
+  padding-bottom: 0.3rem;
+  margin-top: 3rem;
+}
+
+main ul, main ol {
+  padding-left: 1.5rem;
+}
+
+main ul li, main ol li {
+  margin-bottom: 0.6rem;
+}
+
+a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+dl dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+dl dd {
+  margin-left: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+footer {
+  background: #1f1f1f;
+  text-align: center;
+  padding: 1rem 1rem;
+  font-size: 0.85rem;
+  color: #666;
+  border-top: 1px solid #00ffcc;
+}
+
+footer code {
+  font-family: monospace;
+  background: #222;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+}
